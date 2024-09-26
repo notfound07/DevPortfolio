@@ -1,0 +1,242 @@
+/* Global Styles */
+
+.heading-text {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.text-danger {
+    color: #ff4a57;
+}
+
+/* Container */
+.container-resume {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Row */
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.card-column {
+    width: calc(70% - 10px);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Card Styles */
+.card {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    margin-bottom: 15px;
+}
+
+.card-header h4 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.line {
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background-color: #ff4a57;
+    margin-top: 10px;
+}
+
+.card-body h6.title {
+    font-size: 18px;
+    color: #ff4a57;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-body p {
+    margin: 5px 0;
+}
+
+.card-body p.subtitle {
+    font-size: 14px;
+    color: #666;
+}
+
+.progress {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 8px;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background-color: #ff4a57;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.card-body h6 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;}
+
+.btn-secondary {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #ff4a57;
+    color: #ff4a57;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #ff4a57;
+    color: white;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #ff4a57;
+    color: white;
+    background: #ff4a57;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: #ff4a57;
+}
+
+.hire-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    background-color: #343a40 !important;
+}
+
+.btn-hire {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #ff4a57;
+    background-color: #ff4a57;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-hire:hover {
+    background-color: #ff6771;
+    border: 2px solid #ff6771;
+}
+
+/* Responsive Styles */
+
+/* For screens larger than 1440px */
+@media (min-width: 1440px) {
+    .heading-text {
+        font-size: 40px;
+    }
+}
+
+/* For screens smaller than 1024px */
+@media (max-width: 1024px) {
+    .heading-text {
+        font-size: 30px;
+    }
+    .card-column {
+        width: 100%;
+    }
+    .container-resume {
+        padding: 0 15px;
+    }
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .heading-text {
+        font-size: 28px;
+    }
+    .card {
+        padding: 15px;
+    }
+    .card-header h4 {
+        font-size: 20px;
+    }
+    .card-body h6.title {
+        font-size: 16px;
+    }
+    .card-body h6 {
+        font-size: 14px;
+    }
+    .row {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+}
+
+/* For screens smaller than 576px */
+@media (max-width: 576px) {
+    .heading-text {
+        font-size: 24px;
+    }
+    .card {
+        padding: 10px;
+    }
+    .btn {
+        padding: 8px 15px;
+    }
+    .btn-hire {
+        font-size: 12px;
+    }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+    .heading-text {
+        font-size: 22px;
+    }
+    .hire-me {
+        font-size: 18px;
+    }
+}
+
+/* For screens smaller than 349px */
+@media (max-width: 349px) {
+    .heading-text {
+        font-size: 20px;
+    }
+    .btn-hire {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+}

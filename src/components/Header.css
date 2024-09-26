@@ -1,0 +1,78 @@
+/* Existing styles for header */
+.header {
+  position: relative;
+  height: 80vh;
+  min-height: 600px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../assets/main.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.header .container {
+  position: relative;
+  height: 100%;
+}
+
+.social-icons {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-item {
+  margin-right: 10px;
+}
+
+.social-link {
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #ff4a57;
+}
+
+.header .header-content {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  /* Centers horizontally */
+  top: 55%;
+  /* Centers vertically */
+  transform: translate(-50%, -50%);
+  /* Corrects for the element's own dimensions */
+  color: #fff;
+  text-align: center;
+}
+
+
+.header .header-content .header-subtitle {
+  font-weight: 200;
+  font-size: calc(20px + (45 - 20) * ((100vw - 300px) / (1600 - 300)));
+
+}
+
+.header .header-content .header-title {
+  font-size: calc(40px + (120 - 40) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: bold;
+  line-height: .7;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  color: inherit;
+}
+
+.header .header-content .header-mono {
+  letter-spacing: 5px;
+  font-weight: 500;
+  font-size: calc(12px + (19 - 12) * ((100vw - 300px) / (1600 - 300)));
+  margin-bottom: 40px;
+}
