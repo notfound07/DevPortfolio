@@ -11,7 +11,7 @@ function Header() {
           <li className="social-item">
             <a
               className="social-link text-light"
-              href="https://www.linkedin.com/in/aman-216443306/"
+              href="https://www.linkedin.com/in/aman-bhatt-216443306/"
               target="_blank" rel="noopener noreferrer"
               aria-label="LinkedIn Profile"
             >

@@ -35,7 +35,7 @@ function About() {
                     </ul>
                     <ul className="about-section__social-icons">
                         <li className="about-section__social-item">
-                            <a className="about-section__social-link" href="https://www.linkedin.com/in/aman-216443306/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                            <a className="about-section__social-link" href="https://www.linkedin.com/in/aman-bhatt-216443306/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
                                 <FontAwesomeIcon icon={faLinkedin} aria-hidden="true" />
                             </a>
                         </li>
